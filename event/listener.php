@@ -1,14 +1,14 @@
 <?php
 /**
-* phpBB Extension - marttiphpbb topicsuffixtags
+* phpBB Extension - marttiphpbb topicprefixtags
 * @copyright (c) 2014 - 2018 marttiphpbb <info@martti.be>
 * @license GNU General Public License, version 2 (GPL-2.0)
 */
 
-namespace marttiphpbb\topicsuffixtags\event;
+namespace marttiphpbb\topicprefixtags\event;
 
 use phpbb\template\template;
-use marttiphpbb\topicsuffixtags\service\tags;
+use marttiphpbb\topicprefixtags\service\tags;
 use phpbb\event\data as event;
 
 /**
@@ -112,7 +112,7 @@ class listener implements EventSubscriberInterface
 	public function core_twig_environment_render_template_before(event $event)
 	{
 		$context = $event['context'];
-		$context['marttiphpbb_topicsuffixtags_tags'] = $this->tags->get_all();
+		$context['marttiphpbb_topicprefixtags_tags'] = $this->tags->get_all();
 		$event['context'] = $context;
 	}
 }

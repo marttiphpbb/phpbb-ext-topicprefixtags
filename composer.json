@@ -1,11 +1,11 @@
 {
-	"name": "marttiphpbb/topicsuffixtags",
+	"name": "marttiphpbb/topicprefixtags",
 	"type": "phpbb-extension",
-	"description": "Topic Suffix Tags Extension for phpBB 3.2",
-	"homepage": "https://github.com/marttiphpbb/phpbb-ext-topicsuffixtags",
+	"description": "Topic Prefix Tags Extension for phpBB 3.2",
+	"homepage": "https://github.com/marttiphpbb/phpbb-ext-topicprefixtags",
 	"version": "0.1.0",
-	"time": "2017-01-30",
-	"keywords": ["phpbb", "extension", "topic", "suffix", "tags"],
+	"time": "2017-03-19",
+	"keywords": ["phpbb", "extension", "topic", "prefix", "tags"],
 	"license": "GPL-2.0",
 	"authors": [{
 			"name": "martti",
@@ -17,14 +17,14 @@
 		"php": ">=7"
 	},
 	"extra": {
-		"display-name": "Topic Suffix Tags",
+		"display-name": "Topic Prefix Tags",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.2.0,<3.3.*@dev"
 		},
 		"version-check": {
 			"host": "marttiphpbb.github.io",
 			"directory": "/version",
-			"filename": "topicsuffixtags.json"
+			"filename": "topicprefixtags.json"
 		}
 	}
 }

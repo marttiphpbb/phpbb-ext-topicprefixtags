@@ -1,13 +1,13 @@
 services:
-    marttiphpbb.topicsuffixtags.listener:
-        class: marttiphpbb\topicsuffixtags\event\listener
+    marttiphpbb.topicprefixtags.listener:
+        class: marttiphpbb\topicprefixtags\event\listener
         arguments:
             - '@template'
-            - '@marttiphpbb.topicsuffixtags.service.tags'
+            - '@marttiphpbb.topicprefixtags.service.tags'
         tags:
             - { name: event.listener }
 
-    marttiphpbb.topicsuffixtags.service.tags:
-        class: marttiphpbb\topicsuffixtags\service\tags
+    marttiphpbb.topicprefixtags.service.tags:
+        class: marttiphpbb\topicprefixtags\service\tags
         arguments:
             - '@dispatcher'

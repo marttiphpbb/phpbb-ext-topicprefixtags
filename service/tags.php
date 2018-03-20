@@ -1,12 +1,12 @@
 <?php
 
 /**
-* phpBB Extension - marttiphpbb topicsuffixtags
+* phpBB Extension - marttiphpbb topicprefixtags
 * @copyright (c) 2014 - 2018 marttiphpbb <info@martti.be>
 * @license GNU General Public License, version 2 (GPL-2.0)
 */
 
-namespace marttiphpbb\topicsuffixtags\service;
+namespace marttiphpbb\topicprefixtags\service;
 
 use phpbb\event\dispatcher;
 
@@ -44,7 +44,7 @@ class tags
 		 *
 		 */
 		$vars = ['topic_id', 'topic_row', 'tags'];
-		$result = $this->dispatcher->trigger_event('marttiphpbb.topicsuffixtags.set_tags', compact($vars));
+		$result = $this->dispatcher->trigger_event('marttiphpbb.topicprefixtags.set_tags', compact($vars));
 
 		if (count($result['tags']))
 		{
