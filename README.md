@@ -1,5 +1,7 @@
 # phpBB Extension - marttiphpbb Topic Prefix Tags (helper ext)
 
+[Topic on phpBB.com](https://www.phpbb.com/community/viewtopic.php?f=456&t=2473971)
+
 ## Features
 
 This helper extension provides a PHP event for other extensions to prefix topic titles.
