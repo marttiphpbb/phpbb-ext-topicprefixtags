@@ -7,8 +7,8 @@
             {%- else -%}
                 {{- t|raw -}}
             {%- endif -%}
-        {%- endfor -%}&nbsp;
-    </span>
+        {%- endfor -%}
+    &nbsp;</span>
     {%- if marttiphpbb_topicprefixtags_topiclist_js is not defined -%}
         {%- INCLUDEJS '@marttiphpbb_topicprefixtags/js/topiclist_prefix.js' -%}
         {%- set marttiphpbb_topicprefixtags_topiclist_js = true -%}
