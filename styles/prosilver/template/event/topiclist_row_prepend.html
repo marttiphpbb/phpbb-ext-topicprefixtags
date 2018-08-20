@@ -9,8 +9,8 @@
             {%- endif -%}
         {%- endfor -%}
     &nbsp;</span>
-    {%- if marttiphpbb_topicprefixtags_topiclist_js is not defined -%}
+    {%- if not definition.marttiphpbb_topicprefixtags_topiclist_js -%}
         {%- INCLUDEJS '@marttiphpbb_topicprefixtags/js/topiclist_prefix.js' -%}
-        {%- set marttiphpbb_topicprefixtags_topiclist_js = true -%}
+        {%- DEFINE marttiphpbb_topicprefixtags_topiclist_js = true -%}
     {%- endif -%}
 {%- endif -%}
