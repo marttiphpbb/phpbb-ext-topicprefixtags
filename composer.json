@@ -1,7 +1,7 @@
 {
 	"name": "marttiphpbb/topicprefixtags",
 	"type": "phpbb-extension",
-	"description": "Topic Prefix Tags Extension for phpBB 3.2",
+	"description": "Topic Prefix Tags Extension for phpBB 3.3",
 	"homepage": "https://github.com/marttiphpbb/phpbb-ext-topicprefixtags",
 	"version": "0.3.0",
 	"time": "2018-08-21",
