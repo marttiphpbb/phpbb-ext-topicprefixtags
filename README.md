@@ -8,8 +8,8 @@ This helper extension provides a PHP event for other extensions to prefix topic 
 
 ## Requirements
 
-* phpBB 3.2.1+
-* PHP 7+
+* phpBB 3.3+
+* PHP 7.1+
 
 ## Quick Install
 
