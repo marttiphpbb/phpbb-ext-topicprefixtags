@@ -24,7 +24,7 @@ class listener implements EventSubscriberInterface
 		$this->tags = $tags;
 	}
 
-	static public function getSubscribedEvents()
+	static public function getSubscribedEvents():array
 	{
 		return [
 			'core.viewtopic_assign_template_vars_before'
